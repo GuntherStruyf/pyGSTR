@@ -1,4 +1,4 @@
-'''Methods to easily visualize/plot ImageDump data'''
+'''Create a graph with sliders to adjust graph parameters.'''
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Slider, Button, RadioButtons
