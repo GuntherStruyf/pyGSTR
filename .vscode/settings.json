@@ -1,0 +1,7 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.pythonPath": "C:\\ProgramData\\Anaconda3\\python.exe",
+    "python.linting.pylintArgs": ["--extension-pkg-whitelist=numpy",
+                                  "--max-locals=100"],
+}
