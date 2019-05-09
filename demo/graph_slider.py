@@ -35,8 +35,8 @@ def demo():
     def update(val):
         # pylint: disable=unused-argument
         sine_lines.set_ydata(generate_sine_data(time,
-                                                slider_frequency.val,
-                                                slider_amplitude.val))
+                                                slider_amplitude.val,
+                                                slider_frequency.val))
         fig.canvas.draw_idle()
     slider_frequency.on_changed(update)
     slider_amplitude.on_changed(update)
